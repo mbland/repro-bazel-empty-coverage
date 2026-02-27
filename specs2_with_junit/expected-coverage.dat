@@ -1,0 +1,29 @@
+SF:specs2_with_junit/Bar.java
+FN:3,specs2_with_junit/Bar::<init> ()V
+FN:5,specs2_with_junit/Bar::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+FNDA:0,specs2_with_junit/Bar::<init> ()V
+FNDA:1,specs2_with_junit/Bar::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+FNF:2
+FNH:1
+DA:3,0
+DA:5,1
+LH:1
+LF:2
+end_of_record
+SF:specs2_with_junit/Foo.scala
+FN:-1,specs2_with_junit/Foo$::<clinit> ()V
+FN:3,specs2_with_junit/Foo$::<init> ()V
+FN:5,specs2_with_junit/Foo$::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+FN:-1,specs2_with_junit/Foo::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+FNDA:1,specs2_with_junit/Foo$::<clinit> ()V
+FNDA:1,specs2_with_junit/Foo$::<init> ()V
+FNDA:1,specs2_with_junit/Foo$::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+FNDA:0,specs2_with_junit/Foo::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+FNF:4
+FNH:3
+DA:3,1
+DA:5,1
+DA:6,1
+LH:3
+LF:3
+end_of_record

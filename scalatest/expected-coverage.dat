@@ -1,0 +1,29 @@
+SF:scalatest/Bar.java
+FN:3,scalatest/Bar::<init> ()V
+FN:5,scalatest/Bar::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+FNDA:0,scalatest/Bar::<init> ()V
+FNDA:1,scalatest/Bar::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+FNF:2
+FNH:1
+DA:3,0
+DA:5,1
+LH:1
+LF:2
+end_of_record
+SF:scalatest/Foo.scala
+FN:-1,scalatest/Foo$::<clinit> ()V
+FN:3,scalatest/Foo$::<init> ()V
+FN:5,scalatest/Foo$::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+FN:-1,scalatest/Foo::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+FNDA:1,scalatest/Foo$::<clinit> ()V
+FNDA:1,scalatest/Foo$::<init> ()V
+FNDA:1,scalatest/Foo$::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+FNDA:0,scalatest/Foo::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+FNF:4
+FNH:3
+DA:3,1
+DA:5,1
+DA:6,1
+LH:3
+LF:3
+end_of_record
