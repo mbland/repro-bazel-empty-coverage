@@ -15,6 +15,9 @@ This example fails on `last_green` builds containing
 bazelbuild/bazel@ca7d260dbeb7915a5003c044add2b85effe55e8b.
 
 ```sh
+# For Bazelisk builds
+USE_BAZEL_VERSION=last_green ./run_tests.sh
+
 # Adds a locally built `bazel` to `PATH`
 PATH="${HOME}/src/bazelbuild/bazel/bazel-bin/src:${PATH}" ./run_tests.sh
 ```
