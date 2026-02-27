@@ -4,6 +4,6 @@ import org.scalatest.flatspec._
 
 class FooTest extends AnyFlatSpec {
   "testFoo" should "work" in {
-    assert(Foo.add(2, 2) == 4)
+    assert(Foo.concat("foo", "bar") == "foobar")
   }
 }

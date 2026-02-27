@@ -1,6 +1,6 @@
 package coverage_scalatest
 
 object Foo {
-  def add(lhs: Int, rhs: Int): Int =
+  def concat(lhs: String, rhs: String): String =
     return lhs + rhs
 }
