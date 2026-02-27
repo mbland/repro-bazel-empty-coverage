@@ -1,2 +1,4 @@
+# For the time being, has no effect on Bazel prereleases.
+# See: https://github.com/protocolbuffers/protobuf/issues/25561
 common --incompatible_enable_proto_toolchain_resolution
 common --@protobuf//bazel/toolchains:prefer_prebuilt_protoc
