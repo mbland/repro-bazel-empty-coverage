@@ -1,0 +1,6 @@
+.metals
+.vscode
+bazel-*
+
+# Since we don't need it for the repro.
+MODULE.bazel.lock

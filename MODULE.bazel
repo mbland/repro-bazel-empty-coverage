@@ -1,0 +1,13 @@
+module(name = "bazel_coverage_breakage")
+
+bazel_dep(name = "rules_scala", version = "7.2.2")
+
+scala_deps = use_extension(
+    "@rules_scala//scala/extensions:deps.bzl",
+    "scala_deps",
+)
+scala_deps.scala()
+scala_deps.scalatest()
+scala_deps.specs2()
+
+bazel_dep(name = "protobuf", version = "33.5")
