@@ -1,4 +1,4 @@
-package coverage_scalatest
+package scalatest
 
 import org.scalatest.flatspec._
 
