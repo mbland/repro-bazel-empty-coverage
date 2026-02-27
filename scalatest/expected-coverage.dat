@@ -1,15 +1,3 @@
-SF:scalatest/Bar.java
-FN:3,scalatest/Bar::<init> ()V
-FN:5,scalatest/Bar::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-FNDA:0,scalatest/Bar::<init> ()V
-FNDA:1,scalatest/Bar::concat (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-FNF:2
-FNH:1
-DA:3,0
-DA:5,1
-LH:1
-LF:2
-end_of_record
 SF:scalatest/Foo.scala
 FN:-1,scalatest/Foo$::<clinit> ()V
 FN:3,scalatest/Foo$::<init> ()V

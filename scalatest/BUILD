@@ -1,4 +1,3 @@
-load("@rules_java//java:defs.bzl", "java_library")
 load("@rules_scala//scala:scala.bzl", "scala_library", "scala_test")
 
 scala_test(
@@ -10,10 +9,4 @@ scala_test(
 scala_library(
     name = "foo",
     srcs = ["Foo.scala"],
-    deps = [":bar"],
-)
-
-java_library(
-    name = "bar",
-    srcs = ["Bar.java"],
 )

@@ -10,5 +10,4 @@ scala_deps.scala()
 scala_deps.scalatest()
 scala_deps.specs2()
 
-bazel_dep(name = "rules_java", version = "9.6.1")
 bazel_dep(name = "protobuf", version = "33.5")
