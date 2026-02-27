@@ -1,5 +1,8 @@
 # Empty `bazel coverage` reproduction
 
+[bazelbuild/bazel#28826: Empty coverage.dat files after first bazel coverage
+since ca7d260](https://github.com/bazelbuild/bazel/issues/28826)
+
 This example produces no errors on macOS Tahoe 26.3 (25D125) when using Bazel
 7.7.1, 8.6.0, 9.0.0, and 10.0.0-pre.20260211.1.
 
