@@ -1,6 +1,6 @@
 package coverage_scalatest
 
 object Foo {
-  def reverse(input: String): String =
-    input.reverse
+  def add(lhs: Int, rhs: Int): Int =
+    return lhs + rhs
 }

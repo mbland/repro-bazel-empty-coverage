@@ -4,6 +4,6 @@ import org.scalatest.flatspec._
 
 class FooTest extends AnyFlatSpec {
   "testFoo" should "work" in {
-    assert(Foo.reverse("bar") == "rab")
+    assert(Foo.add(2, 2) == 4)
   }
 }
